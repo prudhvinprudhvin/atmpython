@@ -1,0 +1,36 @@
+print("this is atm python program")
+
+####atm machine run ###
+### print - hallo welcome to atm world 
+'''choose your options diplay 1.account details{ name, branch name, branch adress,pincode,account number )
+2.(pin reset - enter old pin-creat new pin)
+3.account balance-your account balance remaining
+4.withdrawl - show withdrwa amount -and remaing amount.
+5.if pin number wrong -show your pin is wrong and again enter currect pin - after 3 wrong attemps - print your atm account bloked today ,please try tomorrow'''
+
+print ('insert card, which means enter 1 butten ') 
+butten1 = int(input())
+
+if (butten1 == 1) :
+    print('if you want options enter number 2 butten ')
+    butten2 = int (input())
+    print (' diplaying options like this,\n 3.account details  4.pin reset \n 5.account balance  6.withdrawl \n  ')
+    
+    butten3 = int(input('choose your option @ 3 , 4 , 5 , 6 @ '))
+    if (butten3 == 3 or butten3 == 4 or butten3 == 5 or butten3 == 6) :
+        print ('you selected option ',butten3)
+        if (butten3 == butten3) :
+            print('somthing')
+        else:
+            print ('nothing')
+
+else :
+   
+    print('wrong number entered,again enter ')
+    
+def prudhvi () :
+    a= int(input('a value'))
+    b= int(input('value of b'))
+    print('value for a+b',a+b)
+prudhvi()  
+    
